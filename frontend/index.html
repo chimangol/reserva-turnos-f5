@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reserva de Canchas F5</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-4">
+  <div class="bg-white rounded-2xl shadow-lg p-6 max-w-lg w-full">
+    <h1 class="text-2xl font-bold mb-4 text-center">Reserva tu turno ⚽</h1>
+    <label class="block mb-2">Fecha:</label>
+    <input type="date" id="fecha" class="border rounded p-2 w-full mb-4">
+
+    <label class="block mb-2">Cancha:</label>
+    <select id="cancha" class="border rounded p-2 w-full mb-4">
+      <option value="Cancha 1">Cancha 1</option>
+      <option value="Cancha 2">Cancha 2</option>
+      <option value="Cancha 3">Cancha 3</option>
+    </select>
+
+    <div id="horarios" class="grid grid-cols-3 gap-2"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

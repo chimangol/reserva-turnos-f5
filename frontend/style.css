@@ -1,0 +1,5 @@
+button.agendado {
+  background-color: #ef4444;
+  color: white;
+  cursor: not-allowed;
+}
